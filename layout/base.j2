@@ -52,7 +52,9 @@
 </head>
 <body id="{{ resource.meta.id if resource.meta.id else resource.slug }}">
   {% block content %}
-  <div id="container">
+	<div id="container">
+		{% block main %}
+		{% endblock main %}
 	  </div> <!--! end of #container -->
   <footer>
   </footer>

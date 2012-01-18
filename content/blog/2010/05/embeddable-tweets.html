@@ -1,13 +1,11 @@
-{% extends "_post.html" %}
-
-{% hyde
-    title: "Embeddable Tweets"
-    author: "Mike Grouchy"
-    created: 2010-05-05 2:14:00
-    tags: ["twitter", "embed"]
-%}
-
-{% block article %}
+---
+title: Embeddable Tweets
+author: Mike Grouchy
+created: !!timestamp 2010-05-05 2:14:00
+tags:
+    - twitter
+    - embed
+---
 Twitter now allows you to Embed a Tweet, all you need is the url of a tweet, like
 <a href="http://twitter.com/mgrouchy/status/13429079254">http://twitter.com/mgrouchy/status/13429079254</a>,
 and you can use Twitters <a href="http://media.twitter.com/blackbird-pie/">Blackbird Pie</a>
@@ -24,4 +22,3 @@ Its kind of interesting, Blackbird Pie just generates a html/css snippet that yo
 
 What do you think?
 
-{% endblock %}
