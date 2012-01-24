@@ -2,7 +2,7 @@
 
 {% block main -%}
 <article class="post">
-<nav class="post_nav">
+{# <nav class="post_nav">
 <a class="backlink" href="{{ content_url(resource.node.url) }}">Back to list</a>
 <a class="prev{{' disabled' if not resource.prev_by_time }}"
     title="{{ resource.prev_by_time.meta.title }}"
@@ -35,13 +35,14 @@
             allowTransparency="true"></iframe>
 </div>
 </nav>
+#}
 <h1 class="title">
-    <a href="{{ content_url(resource.url) }}">
+    <a class="post-link" href="{{ content_url(resource.url) }}">
         {{ resource.meta.title }}
     </a>
 </h1>
 <time datetime="{{ resource.meta.created.strftime('%Y-%m-%d') }}">
-    Posted: {{ resource.meta.created.strftime('%a, %d %b %Y') }}
+    Posted: {{ resource.meta.created.strftime('%A, %d %B, %Y') }}
 </time>
 
 {% if resource.meta.tags %}
@@ -63,3 +64,7 @@
 </article>
 
 {%- endblock %}
+{% block disqus %}
+	{% include "disqus.j2" %}
+{% endblock disqus %}
+

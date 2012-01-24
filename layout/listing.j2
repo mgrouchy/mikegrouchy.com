@@ -1,13 +1,16 @@
 {% extends "base.j2" %}
 {% from "macros.j2" import render_excerpt with context  %}
 {% block main %}
-{% block page_title %}<h1 class="title">{{ resource.meta.title }}</h1>{% endblock %}
+<div class="blog-list">
+	<ul class="posts clear">
+		{% for res in resource.node.walk_resources_sorted_by_time() %}
+			<li class="post clear">
+						 	<time datetime="{{ res.meta.created.strftime('%Y-%m-%d') }}">{{ res.meta.created.strftime('%A, %d %b, %Y') }} </time> <span class="list-arrow">&raquo;</span>
+				<a href="{{ content_url(res.url) }}">{{ res.meta.title }}</a>
+			</li>
 
-<ul class="listing clear">
-{% for res in resource.node.walk_resources_sorted_by_time() %}
-<li>
-    {{ render_excerpt(res) }}
-</li>
+  {#  {{ render_excerpt(res) }} #}
 {% endfor %}
 </ul>
+</div>
 {% endblock %}

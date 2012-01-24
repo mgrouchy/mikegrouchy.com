@@ -38,6 +38,7 @@
   {% endblock favicons %}
 
 	{% block css %}
+	<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ media_url('css/site.css') }}">
   <link rel="stylesheet" href="{{ media_url('css/syntax.css') }}">
@@ -51,12 +52,28 @@
   {% block endhead %}{% endblock endhead %}
 </head>
 <body id="{{ resource.meta.id if resource.meta.id else resource.slug }}">
-  {% block content %}
-	<div id="container">
+	<div class="topbar">
+		<div class="topbar-override">
+			<div class="topbar-inner">
+        <div class="container container-expand">
+          <a class="brand" href="http://mikegrouchy.com">Mike Grouchy</a>
+          <ul class="nav">
+            <li class="active"><a href="http://mikegrouchy.com">Home</a></li>
+            <li class=""><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+		</div>
+	</div>
+	{% block content %}
+	<div class="container container-expand">
 		{% block main %}
 		{% endblock main %}
-	  </div> <!--! end of #container -->
-  <footer>
+		{% block disqus %}
+		{% endblock disqus %}
+	</div> <!--! end of .container -->
+	<footer>
+		sheeeeit
   </footer>
   {% endblock content%}
   {% block js %}
