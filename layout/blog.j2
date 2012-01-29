@@ -44,7 +44,6 @@
 	<time datetime="{{ resource.meta.created.strftime('%Y-%m-%d') }}">
 	    Posted: {{ resource.meta.created.strftime('%A, %d %B, %Y') }}
 	</time>
-<br>
 {#	{% if resource.meta.tags %}
 	<ul class="tags clear">
 		{% for tag in resource.meta.tags %}
@@ -56,17 +55,18 @@
 {% endfor %}
 </ul>
 {% endif %} #}
-{% filter markdown|typogrify -%}
-	{% mark post -%}
-		{% block post -%}{%- endblock %}
-	{%- endmark %}
-{%- endfilter %}
+<div class="post-content">
+	{% filter markdown|typogrify -%}
+		{% mark post -%}
+			{% block post -%}{%- endblock %}
+		{%- endmark %}
+	{%- endfilter %}
 
-{% block tags %}
-	{% include "tags.j2" %}
-{% endblock tags %}
+	{% block tags %}
+		{% include "tags.j2" %}
+	{% endblock tags %}
 
-</article>
+	</article>
 {%- endblock %}
 
 {% block disqus %}

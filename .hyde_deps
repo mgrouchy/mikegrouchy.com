@@ -42,6 +42,7 @@
 !!python/unicode 'index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'index_2.html': [base.j2, analytics.j2]
 !!python/unicode 'media/css/.hyde_deps': []
+!!python/unicode 'media/css/bootstrap.min.css': []
 !!python/unicode 'media/css/site.css': []
 !!python/unicode 'media/css/syntax.css': []
 !!python/unicode 'media/js/libs/dd_belatedpng.js': []

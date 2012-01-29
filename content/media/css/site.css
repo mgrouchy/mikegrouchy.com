@@ -146,6 +146,7 @@ article h1.title {
     padding-top: 20px;
     text-decoration: none;
 		margin-bottom: 5px;
+		margin-top: 15px;
 
 }
 
@@ -168,11 +169,15 @@ article.post img{
     margin-bottom: 24px;
 }
 
+
 .post time{
     font-size: 12px;
     color: #999;
     float:left;
-    margin-top: 6px;
+}
+
+.post-content {
+	padding-top: 30px;
 }
 
 ul.tags{
@@ -191,22 +196,35 @@ ul.tags li a{
 }
 
 
-ul.tags li a:before{
+ul.tags li a:before {
     content: '\00AB';
 }
 
 
-ul.tags li a:after{
+ul.tags li a:after {
     content: '\00BB';
 }
 
-ul.tags li a:hover{
+ul.tags li a:hover {
     color: #222;
 }
 
 h1 a, h2 a, h3 a{
     text-decoration: none;
 }
+
+.intro {
+	margin-top: 24px;
+}
+
+.intro-gravatar {
+	float: right;
+	width: 100px;
+	position: relative;
+	top: -19px;
+	right: 0px;
+}
+
 
 nav.post_nav{
     background-color: #efefef;
@@ -231,15 +249,15 @@ a.backlink{
     margin-bottom: 12px;
 }
 
-a.backlink:before{
+a.backlink:before {
     content: '\2190';
 }
 
-a.prev:before{
+a.prev:before {
     content: '\00AB';
 }
 
-a.next:after{
+a.next:after {
     content: '\00BB';
 }
 
@@ -256,7 +274,7 @@ a.next{
 
 a.next{ float: right };
 
-a.backlink:hover, a.prev:hover, a.next:hover{
+a.backlink:hover, a.prev:hover, a.next:hover {
     color: #222;
 }
 
@@ -270,7 +288,7 @@ a.backlink:hover, a.prev:hover, a.next:hover{
     text-shadow: 0px 2px 0px #fff;
 }
 
-.post_nav div{
+.post_nav div {
     display: block;
     float: left;
     width: 58px;
@@ -290,18 +308,18 @@ a.backlink:hover, a.prev:hover, a.next:hover{
 	margin-top:23px;
 }
 
-.archives ul.posts{
+.archives ul.posts {
     margin-top: 24px;
 }
 
-.archives li.post{
+.archives li.post {
     list-style-type: none;
     border-bottom: 1px dotted #ccc;
     padding: 12px 0;
 
 }
 
-.archives li.post time{
+.archives li.post time {
     color: #999;
     text-shadow: 0px 2px 0px #fff;
     margin-right: 24px;
