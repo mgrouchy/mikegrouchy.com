@@ -7,21 +7,22 @@
   blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/2010/12/setting-up-nginx-with-ssl-and-godaddy.html': [blog.j2,
   base.j2, analytics.j2]
-!!python/unicode 'blog/a-new-blog-a-new-beginning.html': [disqus.j2, blog.j2, base.j2,
-  analytics.j2]
+!!python/unicode 'blog/a-new-blog-a-new-beginning.html': [tags.j2, blog.j2, disqus.j2,
+  base.j2, analytics.j2]
 !!python/unicode 'blog/angry-post.html': [blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
-!!python/unicode 'blog/embeddable-tweets.html': [disqus.j2, blog.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/embeddable-tweets.html': [tags.j2, blog.j2, disqus.j2, base.j2,
+  analytics.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/happy-post.html': [blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
-!!python/unicode 'blog/my-development-toolbox.html': [disqus.j2, blog.j2, base.j2,
-  analytics.j2]
-!!python/unicode 'blog/sad-post.html': [blog.j2, base.j2, analytics.j2]
-!!python/unicode 'blog/setting-up-nginx-with-ssl-and-godaddy.html': [disqus.j2, blog.j2,
+!!python/unicode 'blog/my-development-toolbox.html': [tags.j2, blog.j2, disqus.j2,
   base.j2, analytics.j2]
+!!python/unicode 'blog/sad-post.html': [blog.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/setting-up-nginx-with-ssl-and-godaddy.html': [tags.j2, blog.j2,
+  disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/structure-and-interpretation-of-computer-programs-epub.html': [
-  disqus.j2, blog.j2, base.j2, analytics.j2]
+  tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/tags/angry.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/book.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/development.html': [base.j2, tagged_posts.j2, analytics.j2]
@@ -37,7 +38,7 @@
 !!python/unicode 'blog/tags/thoughts.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/tools.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/twitter.html': [base.j2, tagged_posts.j2, analytics.j2]
-!!python/unicode 'blog/test-post.html': [disqus.j2, blog.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/test-post.html': [tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'index_2.html': [base.j2, analytics.j2]
 !!python/unicode 'media/css/.hyde_deps': []

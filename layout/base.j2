@@ -52,18 +52,16 @@
   {% block endhead %}{% endblock endhead %}
 </head>
 <body id="{{ resource.meta.id if resource.meta.id else resource.slug }}">
-	<div class="topbar">
-		<div class="topbar-override">
-			<div class="topbar-inner">
+	<div class="topbar ">
+			<div class="topbar-inner topbar-override">
         <div class="container container-expand">
-          <a class="brand" href="http://mikegrouchy.com">Mike Grouchy</a>
+          <a class="brand btitle" href="http://mikegrouchy.com">Mike Grouchy</a>
           <ul class="nav">
-            <li class="active"><a href="http://mikegrouchy.com">Home</a></li>
-            <li class=""><a href="/about.html">About</a></li>
+							<li class=""><a href="http://mikegrouchy.com">Home</a></li>
+							<li class=""><a href="/about.html">About</a></li>
           </ul>
         </div>
       </div>
-		</div>
 	</div>
 	{% block content %}
 	<div class="container container-expand">

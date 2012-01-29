@@ -42,6 +42,40 @@ body {
     text-shadow: 0px 2px 0px #efefef;
 }
 
+.topbar h3 a, .topbar .brand {
+	color: #000;
+	font-size: 28px;
+	margin-left: -32px;
+	padding: 12px 20px 12px;
+}
+
+.topbar-override {
+	background: #F8F8F8;
+	border-bottom: 0px solid #E0E0E0;
+	color: #000
+}
+
+.topbar-override a {
+	color: #000;
+	font-size: 20px;
+}
+
+.btitle:hover {
+	color: #999;
+}
+.topbar h3 a:hover,.topbar .brand:hover {
+	color:#999;
+	text-decoration:none;
+}
+
+.topbar div > ul a:hover, .nav a:hover {
+	color: #999;
+}
+
+.topbar div > ul a, .nav a {
+	padding: 17px 10px 11px;
+}
+
 .container-expand {
           width: 700px;
 					min-height: 90%%;
@@ -156,12 +190,12 @@ ul.tags li a{
     text-decoration: none;
 }
 
-h1.tag:before,
+
 ul.tags li a:before{
     content: '\00AB';
 }
 
-h1.tag:after,
+
 ul.tags li a:after{
     content: '\00BB';
 }
@@ -247,8 +281,14 @@ a.backlink:hover, a.prev:hover, a.next:hover{
 .disqus {
 	margin-top: 30px;
 	padding: 20px;
+	font-family: "Mate","Sabon LT Std","Hoefler Text","Palatino Linotype","Book Antiqua",serif;
+	font-size: 16px;
 }
 
+
+.archives {
+	margin-top:23px;
+}
 
 .archives ul.posts{
     margin-top: 24px;
