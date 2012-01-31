@@ -357,7 +357,7 @@ div.blog-list{
 
 .blog-list li.post time{
     position: relative;
-    top: -5px;
+    top: 1px;
     font-size: 15px;
     color: #999;
     text-shadow: 0px 2px 0px #fff;
@@ -372,11 +372,14 @@ div.blog-list{
     position: relative;
     left: -58px;
     font-weight: bold;
+		top: 1px;
 }
 
 .blog-list li.post a{
     float: left;
 		text-decoration: None;
+		position: relative;
+		top: 1px;
 }
 
 .blog-list li.post a:hover {
