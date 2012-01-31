@@ -35,7 +35,9 @@
         in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="{{ media_url('/favicon.ico') }}">
   <link rel="apple-touch-icon" href="{{ media_url('/apple-touch-icon.png') }}">
-  {% endblock favicons %}
+	{% endblock favicons %}
+
+	<link rel="alternate" type="application/rss+xml" title="MikeGrouchy.com RSS Feed" href="http://feeds.feedburner.com/mikegrouchycom" />
 
 	{% block css %}
 	<link rel="stylesheet" href="{{ media_url('css/bootstrap.min.css') }}">
@@ -58,6 +60,7 @@
           <ul class="nav">
 							<li class=""><a href="http://mikegrouchy.com">Home</a></li>
 							<li class=""><a href="/about.html">About</a></li>
+							<li class=""><a href="http://feeds.feedburner.com/mikegrouchycom">Feed</a></li>
           </ul>
         </div>
       </div>
