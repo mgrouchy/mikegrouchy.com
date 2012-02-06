@@ -17,6 +17,10 @@
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
 !!python/unicode 'blog/happy-post.html': [blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/introducing-pycoders-weekly.html': [tags.j2, blog.j2, disqus.j2,
+  base.j2, analytics.j2]
+!!python/unicode 'blog/introducting-pycoders-weekly.html': [tags.j2, blog.j2, disqus.j2,
+  base.j2, analytics.j2]
 !!python/unicode 'blog/my-development-toolbox.html': [tags.j2, blog.j2, disqus.j2,
   base.j2, analytics.j2]
 !!python/unicode 'blog/sad-post.html': [blog.j2, base.j2, analytics.j2]
@@ -32,7 +36,9 @@
 !!python/unicode 'blog/tags/happy.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/lisp.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/meta.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/newsletter.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/nginx.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/python.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/sad.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/scheme.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/shell.html': [base.j2, tagged_posts.j2, analytics.j2]
