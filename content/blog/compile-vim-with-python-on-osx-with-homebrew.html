@@ -1,0 +1,89 @@
+---
+title: Compile Vim with Python support on OSX with Homebrew
+author: Mike Grouchy
+created: !!timestamp 2012-05-09 10:17:00
+tags:
+    - python
+    - vim
+    - homebrew
+    - OSX
+---
+
+[Mahdi](http://twitter.com/myusuf3) asked me today how I compiled Vim with +Python
+on OSX and I couldn't remember the exact commands, so I am writing this blog post
+so I will remember in the future and because someone else might find this useful.
+
+Compiling Vim with +Python or +Ruby is required if you want to run any plugins
+that have peices that are written in those languages. The usual way around this
+on OSX is to just install [MacVim](https://github.com/b4winckler/macvim) and use
+that. However, if you really want to use terminal Vim, you are out of luck on OSX.
+
+So this is where [Homebrew](http://mxcl.github.com/homebrew/) comes in, we can use Homebrew to compile vim from a custom
+formula. The only requirements to do this are [Mercurial](http://mercurial.selenic.com/) and Homebrew.
+
+You can install Mercurial by using either easy_install or pip:
+{% syntax bash %}
+#install mercurial
+easy_install mercurial
+#or
+pip install mercurial
+{% endsyntax %}
+You can follow the directions on the [Homebrew Github Wiki](https://github.com/mxcl/homebrew/wiki/installation) to install homebrew.
+
+Now you can Install this Homebrew formula which has been modified slightly to my tastes
+to install Vim.
+
+<script src="https://gist.github.com/2051422.js?file=vim.rb"></script>
+
+To install this formula you can just use this command, or fork the Gist and modify
+the formula as you see fit to install your flavor of Vim.
+
+{% syntax bash %}
+brew install https://raw.github.com/gist/2051422/6b9f33b7135f44e3e55af6e15ed32b738de2f666/vim.rb
+{% endsyntax %}
+
+Now you can test your version of vim with:
+{% syntax bash %}
+vim --version
+{% endsyntax %}
+
+and you should see that it is the updated version.
+
+If you don't see that it is the updated version, it means your /usr/local/bin isn't
+on your path, or if it is on your path it comes after usr/bin.
+
+So how do you fix this?
+
+##Option 1: Update your path:
+In your .zshrc ([you are using Zsh right?](http://mikegrouchy.com/blog/zsh-is-your-friend.html)) or .bashrc
+update your path.
+
+{% syntax bash %}
+#this
+export PATH=/usr/bin:/usr/sbin
+#to this
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+{% endsyntax %}
+
+##Option 2: Move your old Vim and symlink the new one
+You can move the Vim that comes with OSX and Symlink the one brew installed
+
+{% syntax bash %}
+sudo mv /usr/bin/vim /usr/bin/oldvim
+ln -s /usr/local/bin/vim /usr/bin/vim
+{% endsyntax %}
+
+One of those should solve your problem.
+
+##Protip:
+You may notice that your terminal Vim does not support backspace in Insert mode
+with the settings I have setup in the brew formula.
+
+If this is something you want, you can stick this line in your .vimrc:
+
+{% syntax vim %}
+set backspace=indent,eol,start
+{% endsyntax %}
+
+I think that should be it. If you have any questions leave it in the comments or
+ask me on [twitter](http://twitter.com/mgrouchy).

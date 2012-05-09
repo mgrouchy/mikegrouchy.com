@@ -72,12 +72,19 @@ body {
 	color: #999;
 }
 
+.topbar div > ul, .nav {
+	display: block;
+	float: left;
+	margin: 0 10px 0 388px;
+	position: relative;
+	left: 0;
+}
+
 .topbar div > ul a, .nav a {
 	padding: 17px 10px 11px;
 }
 
 .container-expand {
-          width: 700px;
 					min-height: 90%%;
 					height: auto !important;
 					height: 90%;
@@ -137,6 +144,7 @@ section.content{
 
 /* Content */
 article {
+	width: 700px;
 
 }
 article h1.title {
