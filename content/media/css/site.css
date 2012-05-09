@@ -305,6 +305,7 @@ a.backlink:hover, a.prev:hover, a.next:hover {
 }
 
 .disqus {
+	width: 700px;
 	margin-top: 30px;
 	padding: 20px;
 	font-family: "Mate","Sabon LT Std","Hoefler Text","Palatino Linotype","Book Antiqua",serif;
