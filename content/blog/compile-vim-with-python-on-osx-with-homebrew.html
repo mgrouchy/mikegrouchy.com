@@ -24,9 +24,9 @@ formula. The only requirements to do this are [Mercurial](http://mercurial.selen
 You can install Mercurial by using either easy_install or pip:
 {% syntax bash %}
 #install mercurial
-easy_install mercurial
+sudo easy_install mercurial
 #or
-pip install mercurial
+sudo pip install mercurial
 {% endsyntax %}
 You can follow the directions on the [Homebrew Github Wiki](https://github.com/mxcl/homebrew/wiki/installation) to install homebrew.
 
@@ -36,13 +36,25 @@ to install Vim.
 <script src="https://gist.github.com/2051422.js?file=vim.rb"></script>
 
 To install this formula you can just use this command, or fork the Gist and modify
-the formula as you see fit to install your flavor of Vim.
-
+the formula as you see fit(that's what I did) to install your flavor of Vim.
 {% syntax bash %}
-brew install https://raw.github.com/gist/2051422/6b9f33b7135f44e3e55af6e15ed32b738de2f666/vim.rb
+brew install https://raw.github.com/gist/2051422/97b17d79e404b78bf9eef581c190ff158485cb30/vim.rb
 {% endsyntax %}
 
-Now you can test your version of vim with:
+By default the Vim compiled with this script is compiled with +python and +ruby,
+if you want support for other interpreters you can pass those parameters to the script with:
+{% syntax bash%}
+--enable-interp=NAME,...", "lua, mzscheme, perl, python, python3, tcl and/or ruby"
+{% endsyntax %}
+
+You can also specify vim be compiled with features(the scripts, default is normal)
+To see what the features do, you can see this [rather ugly table](http://www.drchip.org/astronaut/vim/vimfeat.html)
+{% syntax bash%}
+--with-features=TYPE", "tiny, small, normal, big or huge
+{% endsyntax %}
+
+Now that you have vim installed with your interpreters and features compiled,
+go ahead and check the version:
 {% syntax bash %}
 vim --version
 {% endsyntax %}
@@ -87,3 +99,5 @@ set backspace=indent,eol,start
 
 I think that should be it. If you have any questions leave it in the comments or
 ask me on [twitter](http://twitter.com/mgrouchy).
+
+Edit: Discussion on [Hacker News](http://news.ycombinator.com/item?id=3949774)
