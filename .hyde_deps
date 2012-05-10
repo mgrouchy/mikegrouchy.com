@@ -1,3 +1,4 @@
+!!python/unicode '.hyde_deps': []
 !!python/unicode 'CNAME': []
 !!python/unicode 'about.html': [base.j2, analytics.j2]
 !!python/unicode 'blog/2010/04/a-new-blog-a-new-beginning.html': [blog.j2, base.j2,
@@ -8,10 +9,15 @@
   blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/2010/12/setting-up-nginx-with-ssl-and-godaddy.html': [blog.j2,
   base.j2, analytics.j2]
+!!python/unicode 'blog/:w': [tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/a-new-blog-a-new-beginning.html': [tags.j2, blog.j2, disqus.j2,
   base.j2, analytics.j2]
 !!python/unicode 'blog/angry-post.html': [blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/compile-vim-with-python-and-ruby-on-osx-with-homebrew.html': [
+  tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/compile-vim-with-python-on-osx-with-homebrew.html': [tags.j2,
+  blog.j2, disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/embeddable-tweets.html': [tags.j2, blog.j2, disqus.j2, base.j2,
   analytics.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
@@ -28,27 +34,35 @@
   disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/structure-and-interpretation-of-computer-programs-epub.html': [
   tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/tags/OSX.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/angry.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/book.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/development.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/embed.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/godaddy.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/happy.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/homebrew.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/lisp.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/meta.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/newsletter.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/nginx.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/python.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/ruby.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/sad.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/scheme.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/shell.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/ssl.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/terminal.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/thoughts.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/tips.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/tools.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/tutorial.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/twitter.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/vim.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/zsh.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/test-post.html': [tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
+!!python/unicode 'blog/vim-tips-for-python-developers.html': [tags.j2, blog.j2, disqus.j2,
+  base.j2, analytics.j2]
 !!python/unicode 'blog/zsh-is-your-friend.html': [tags.j2, blog.j2, disqus.j2, base.j2,
   analytics.j2]
 !!python/unicode 'index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
