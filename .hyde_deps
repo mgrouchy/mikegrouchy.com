@@ -14,6 +14,8 @@
   base.j2, analytics.j2]
 !!python/unicode 'blog/angry-post.html': [blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/be-pythonic-initpy.html': [tags.j2, blog.j2, disqus.j2, base.j2,
+  analytics.j2]
 !!python/unicode 'blog/compile-vim-with-python-and-ruby-on-osx-with-homebrew.html': [
   tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/compile-vim-with-python-on-osx-with-homebrew.html': [tags.j2,
