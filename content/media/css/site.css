@@ -27,7 +27,6 @@ html, body {
 
 a {
     color: #37e;
-    text-shadow: 0px 2px 0px #fff;
 }
 
 a:hover {
@@ -39,7 +38,6 @@ body {
     background-color: #efefef;
     padding-top: 40px;
     margin: 0;
-    text-shadow: 0px 2px 0px #efefef;
 }
 
 .topbar h3 a, .topbar .brand {
@@ -95,7 +93,6 @@ footer {
     font-size: 10px;
     text-align: center;
     /*margin-top: 24px; */
-    text-shadow: 0px 2px 0px #fff;
 }
 
 .blog_excerpt{
@@ -294,7 +291,6 @@ a.backlink:hover, a.prev:hover, a.next:hover {
 .post_nav a{
     color: #666;
     text-decoration: none;
-    text-shadow: 0px 2px 0px #fff;
 }
 
 .post_nav div {
@@ -331,7 +327,6 @@ a.backlink:hover, a.prev:hover, a.next:hover {
 
 .archives li.post time {
     color: #999;
-    text-shadow: 0px 2px 0px #fff;
     margin-right: 24px;
     display:block;
     float: left;
@@ -370,7 +365,6 @@ div.blog-list{
     top: 1px;
     font-size: 15px;
     color: #999;
-    text-shadow: 0px 2px 0px #fff;
     margin-right: 65px;
     display: block;
     float: left;
