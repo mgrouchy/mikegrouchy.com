@@ -43,7 +43,7 @@ body {
 .topbar h3 a, .topbar .brand {
 	color: #000;
 	font-size: 28px;
-	margin-left: -32px;
+	margin-left: -16px;
 	padding: 12px 20px 12px;
 }
 
@@ -73,7 +73,7 @@ body {
 .topbar div > ul, .nav {
 	display: block;
 	float: left;
-	margin: 0 10px 0 388px;
+	margin: 0 10px 0 350px;
 	position: relative;
 	left: 0;
 }
