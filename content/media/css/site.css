@@ -35,7 +35,7 @@ a:hover {
 
 body {
     font-family: "Georgia", serif;
-    background-color: #efefef;
+ /*   background-color: #efefef; */
     padding-top: 40px;
     margin: 0;
 }
@@ -59,15 +59,15 @@ body {
 }
 
 .btitle:hover {
-	color: #999;
+	color: #6B6B6B;
 }
 .topbar h3 a:hover,.topbar .brand:hover {
-	color:#999;
+	color:#6B6B6B;
 	text-decoration:none;
 }
 
 .topbar div > ul a:hover, .nav a:hover {
-	color: #999;
+	color: #6B6B6B;
 }
 
 .topbar div > ul, .nav {
@@ -178,7 +178,7 @@ article.post img{
 
 .post time{
     font-size: 12px;
-    color: #999;
+    color: #6B6B6B;
     float:left;
 }
 
@@ -197,7 +197,7 @@ ul.tags li{
 }
 
 ul.tags li a{
-    color: #999;
+    color: #6B6B6B;
     text-decoration: none;
 }
 
@@ -326,7 +326,7 @@ a.backlink:hover, a.prev:hover, a.next:hover {
 }
 
 .archives li.post time {
-    color: #999;
+    color: #6B6B6B;
     margin-right: 24px;
     display:block;
     float: left;
@@ -364,7 +364,7 @@ div.blog-list{
     position: relative;
     top: 1px;
     font-size: 15px;
-    color: #999;
+    color: #6B6B6B;
     margin-right: 65px;
     display: block;
     float: left;
