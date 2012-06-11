@@ -23,6 +23,8 @@
 !!python/unicode 'blog/embeddable-tweets.html': [tags.j2, blog.j2, disqus.j2, base.j2,
   analytics.j2]
 !!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/great-django-test-talks.html': [tags.j2, blog.j2, disqus.j2,
+  base.j2, analytics.j2]
 !!python/unicode 'blog/happy-post.html': [blog.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/introducing-pycoders-weekly.html': [tags.j2, blog.j2, disqus.j2,
@@ -40,6 +42,7 @@
 !!python/unicode 'blog/tags/angry.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/book.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/development.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/django.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/embed.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/godaddy.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/happy.html': [base.j2, tagged_posts.j2, analytics.j2]
@@ -55,6 +58,8 @@
 !!python/unicode 'blog/tags/shell.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/ssl.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/terminal.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/test.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/testing.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/thoughts.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/tips.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/tools.html': [base.j2, tagged_posts.j2, analytics.j2]
