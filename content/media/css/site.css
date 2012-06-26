@@ -418,3 +418,13 @@ div.blog-list{
   line-height: 24px;
   margin-bottom: 8px;
 }
+
+.about-block {
+	width: 620px;
+}
+
+.about-block img {
+	width: 100px;
+	float: left;
+	padding-right: 20px;
+}
