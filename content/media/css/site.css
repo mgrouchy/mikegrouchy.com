@@ -170,6 +170,11 @@ article.post p {
     margin: 12px 0;
 }
 
+article.post li {
+		font-family: "Mate","Sabon LT Std","Hoefler Text","Palatino Linotype","Book Antiqua",serif;
+		font-size: 1.5em;
+}
+
 article.post img{
     display: block;
     margin-bottom: 24px;

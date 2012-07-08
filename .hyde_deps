@@ -15,6 +15,8 @@
   base.j2, analytics.j2]
 !!python/unicode 'blog/2012/06/write-less-code.html': [blog.j2, tags.j2, about.j2,
   base.j2, analytics.j2, disqus.j2]
+!!python/unicode 'blog/2012/07/setting-up-pypy-1.9-on-osx.html': [blog.j2, tags.j2,
+  about.j2, base.j2, analytics.j2, disqus.j2]
 !!python/unicode 'blog/:w': [tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/a-new-blog-a-new-beginning.html': [blog.j2, tags.j2, about.j2,
   base.j2, analytics.j2, disqus.j2]
@@ -58,6 +60,7 @@
 !!python/unicode 'blog/tags/newsletter.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/nginx.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/programming.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/pypy.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/python.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/ruby.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/sad.html': [base.j2, tagged_posts.j2, analytics.j2]
