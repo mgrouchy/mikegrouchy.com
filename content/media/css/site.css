@@ -147,7 +147,7 @@ article {
 
 }
 article h1.title {
-    font-family: "Wellfleet", cursive;
+	 font-family: 'Allerta', sans-serif;
     font-size: 24px;
     line-height: 36px;
     padding-top: 20px;
@@ -161,7 +161,7 @@ article h1.title a {
 	color: #292929;
 }
 
-article h2 {
+article h1, h2 {
     font-family: "Wellfleet", cursive;
 }
 
