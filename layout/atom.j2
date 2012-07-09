@@ -9,7 +9,7 @@
     {% endblock %}
 
     {% block site_url %}
-    <link href="{{ content_url('') }}"/>
+    <link href="http://mikegrouchy.com{{ content_url('') }}"/>
     {% endblock %}
 
     {% block feed_extra %}
@@ -17,16 +17,16 @@
 
     <updated>{{ time_now|xmldatetime }}</updated>
 
-    <id>{{ content_url(resource.url) }}/</id>
+    <id>http://mikegrouchy.com{{ content_url(resource.url) }}/</id>
 
     {% for res in resource.node.walk_resources_sorted_by_time() %}
         <entry>
             <title type="html">{{ res.meta.title }}</title>
             <author><name>{{ res.meta.author }}</name></author>
-            <link href="{{ content_url(res.url) }}"/>
+            <link href="http://mikegrouchy.com{{ content_url(res.url) }}"/>
             <updated>{{ res.meta.created|xmldatetime }}</updated>
             <published>{{ res.meta.created|xmldatetime }}</published>
-            <id>{{ content_url(res.url) }}</id>
+            <id>http://mikegrouchy.com{{ content_url(res.url) }}</id>
             {% for tag in res.meta.tags %}
             <category   scheme="{{ content_url('blog/tags') }}"
                         term="{{tag}}"
