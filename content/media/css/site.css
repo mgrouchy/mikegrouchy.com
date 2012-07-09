@@ -142,11 +142,12 @@ section.content{
 
 /* Content */
 article {
+	font-family: font-family: 'Alike', serif;
 	width: 700px;
 
 }
 article h1.title {
-    font-family: "Georgia";
+    font-family: "Wellfleet", cursive;
     font-size: 24px;
     line-height: 36px;
     padding-top: 20px;
@@ -160,9 +161,11 @@ article h1.title a {
 	color: #292929;
 }
 
+article h2 {
+    font-family: "Wellfleet", cursive;
+}
 
 article.post p {
-		font-family: "Mate","Sabon LT Std","Hoefler Text","Palatino Linotype","Book Antiqua",serif;
 		font-size: 1.5em;
 	  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px; */
@@ -171,7 +174,6 @@ article.post p {
 }
 
 article.post li {
-		font-family: "Mate","Sabon LT Std","Hoefler Text","Palatino Linotype","Book Antiqua",serif;
 		font-size: 1.5em;
 }
 
