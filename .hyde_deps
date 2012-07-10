@@ -15,6 +15,8 @@
   base.j2, analytics.j2]
 !!python/unicode 'blog/2012/06/write-less-code.html': [blog.j2, tags.j2, about.j2,
   base.j2, analytics.j2, disqus.j2]
+!!python/unicode 'blog/2012/07/broken-rss-links-fixed.html': [blog.j2, tags.j2, about.j2,
+  base.j2, analytics.j2, disqus.j2]
 !!python/unicode 'blog/2012/07/setting-up-pypy-1.9-on-osx.html': [blog.j2, tags.j2,
   about.j2, base.j2, analytics.j2, disqus.j2]
 !!python/unicode 'blog/:w': [tags.j2, blog.j2, disqus.j2, base.j2, analytics.j2]
