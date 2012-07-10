@@ -5,11 +5,11 @@
         {% block title %}{{ resource.meta.title|default(feed_title) }}{% endblock %}
     </title>
     {% block self_url %}
-    <link href="http://mikegrouchy.com{{ resource.url }}" rel="self" />
+    <link href="http://mikegrouchy.com/{{ resource.url }}" rel="self" />
     {% endblock %}
 
     {% block site_url %}
-    <link href="http://mikegrouchy.com{{ content_url('') }}"/>
+    <link href="{{ content_url('') }}"/>
     {% endblock %}
 
     {% block feed_extra %}
@@ -17,18 +17,18 @@
 
     <updated>{{ time_now|xmldatetime }}</updated>
 
-    <id>http://mikegrouchy.com{{ content_url(resource.url) }}/</id>
+    <id>http://mikegrouchy.com/{{ resource.url }}/</id>
 
     {% for res in resource.node.walk_resources_sorted_by_time() %}
         <entry>
             <title type="html">{{ res.meta.title }}</title>
             <author><name>{{ res.meta.author }}</name></author>
-            <link href="http://mikegrouchy.com{{ content_url(res.url) }}"/>
+            <link href="http://mikegrouchy.com/{{ res.url }}"/>
             <updated>{{ res.meta.created|xmldatetime }}</updated>
             <published>{{ res.meta.created|xmldatetime }}</published>
-            <id>http://mikegrouchy.com{{ content_url(res.url) }}</id>
+            <id>http://mikegrouchy.com{{ res.url }}</id>
             {% for tag in res.meta.tags %}
-            <category   scheme="{{ content_url('blog/tags') }}"
+            <category   scheme="http://mikegrouchy.com/blog/tags'"
                         term="{{tag}}"
                         label="{{ tag|title }}" />
             {% endfor %}
