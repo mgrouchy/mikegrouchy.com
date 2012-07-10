@@ -175,6 +175,7 @@ article.post p {
 
 article.post li {
 		font-size: 1.5em;
+		padding-bottom: 5px;
 }
 
 article.post img{
