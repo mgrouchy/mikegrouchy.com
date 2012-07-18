@@ -161,26 +161,27 @@ article h1.title a {
 	color: #292929;
 }
 
-article h1, h2 {
+article h1, h2, h3 {
     font-family: "Wellfleet", cursive;
 }
 
 article.post p {
+		font-family: font-family: 'Alike', serif;
 		font-size: 1.5em;
-	  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px; */
     line-height: 30px;
     margin: 12px 0;
 }
 
 article.post li {
-		font-size: 1.5em;
+		font-family: font-family: 'Alike', serif;
+		font-size: 17px;
 		padding-bottom: 5px;
 }
 
 article.post img{
     display: block;
     margin-bottom: 24px;
+		max-width: 694px;
 }
 
 
