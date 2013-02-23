@@ -1,2 +1,5 @@
 deploy
 .DS_STORE
+output
+*.pyc
+*.pid

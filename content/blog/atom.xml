@@ -1,5 +1,0 @@
-===
-title: feed for mikegrouchy.com
-extends: atom.j2
-listable: false
-===

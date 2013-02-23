@@ -1,6 +1,0 @@
-===
-title: excerpts feed for mikegrouchy.com
-extends: atom.j2
-excerpts_only: true
-listable: false
-===

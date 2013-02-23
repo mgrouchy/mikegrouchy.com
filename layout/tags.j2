@@ -1,5 +1,0 @@
-<div class="hero-unit disqus">
-	{% if resource.meta.tags %}
-	Tags: {% for tag in resource.meta.tags %} <a class="" href="{{ content_url('blog/tags/'~tag~'.html') }}">{{ tag }}</a>{% if loop.last %}.{% else %}, {% endif %}{% endfor %}
-	{% endif %}
-</div>
