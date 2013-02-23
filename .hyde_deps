@@ -23,6 +23,8 @@
   about.j2, base.j2, analytics.j2, disqus.j2]
 !!python/unicode 'blog/2012/07/the-setup.html': [blog.j2, tags.j2, about.j2, base.j2,
   analytics.j2, disqus.j2]
+!!python/unicode 'blog/2013/02/announcing-django-stronghold.html': [blog.j2, tags.j2,
+  about.j2, base.j2, analytics.j2, disqus.j2]
 !!python/unicode 'blog/2013/02/index.html': [blog.j2, tags.j2, about.j2, base.j2,
   analytics.j2, disqus.j2]
 !!python/unicode 'blog/2013/02/introducing-pythonjobshq.html': [blog.j2, tags.j2,
@@ -58,6 +60,7 @@
   blog.j2, tags.j2, about.j2, base.j2, analytics.j2, disqus.j2]
 !!python/unicode 'blog/tags/OSX.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/angry.html': [base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/authentication.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/book.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/browser.html': [base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/careers.html': [base.j2, tagged_posts.j2, analytics.j2]
