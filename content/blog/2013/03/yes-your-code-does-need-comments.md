@@ -5,14 +5,13 @@ tags:
     - software
 	- programming
 
-I think that for your code to be considered good it needs comments.
-
 I imagine that this post is going to draw the ire of some. It seems like every
 time I mention this on [Twitter](http://twitter.com/mgrouchy) or anywhere else
 there is always some pushback from people who think that putting comments in
 your code is a waste of time.
 
-Now lets qualify the statement "for your code to be good it needs comments".
+I think your code needs comments, but so we have a mutual understanding, lets
+qualify that.
 
 ```python
 def somefunction(a, b):
@@ -31,17 +30,17 @@ you can write.
 > "Code is far better describing what code does than English so just write clear code"
 
 This is usually the blowback you get from comments like the ones above. I don't
-disagree, programming languages are definately more precise then English. What I
+disagree, programming languages are definitely more precise then English. What I
 don't agree with is the idea that if the code is clear and understandable that
 comments are unneeded or don't have a place in modern software development.
 
 So knowing this, what kind of comments am I advocating for? I'm advocating for
-comments as documentation. Comments that explain what a complex peice of code
+comments as documentation. Comments that explain what a complex piece of code
 does, and most importantly what an entire function or Class does and why they
 exist in the first place.
 
 So what is a good example of the kind of documentation I am talking about? I
-think [Zed Shaw's](http://twitter.com/zedshaw) [Lamson](http://github.com/zedshaw/lamson) is a fantastic example of this. Here is a code exerpt from that:
+think [Zed Shaw's](http://twitter.com/zedshaw) [Lamson](http://github.com/zedshaw/lamson) is a fantastic example of this. Here is a code excerpt from that:
 
 ```python
 
@@ -98,8 +97,8 @@ easily describe the original intent of your code.
 
 Why is capturing the original intent of your code important?
 
-* It allows a developer, at a glance, to look at a peice of code and know why it exists.
-* It reduces situations where a peice of codes original intent isn't clear then gets modified
+* It allows a developer, at a glance, to look at a piece of code and know why it exists.
+* It reduces situations where a piece of codes original intent isn't clear then gets modified
 and leads to unintended regressions.
 * It reduces the amount of context a developer must hold his/her mind to solve any particular problem that may be contained in a piece of code.
 
@@ -107,7 +106,7 @@ and leads to unintended regressions.
 
 ##Where do we go from here?
 
-The first step is to realize that the documentation/comments accompanying a peice
+The first step is to realize that the documentation/comments accompanying a piece
 of code can be just important as the code itself and need to be maintained as such.
 Just like code can become stale if you don't keep it updated so do comments.
 If you update some code you *must* update the accompanying comments/documentation
@@ -118,12 +117,12 @@ Next we have to agree on what is important to comment on in your code, and how t
 structure your code to make your use of comments most effective. Most of this
 relies on your own judgement but we can cover most issues with some steadfast rules.
 
-1. Never name your classes and functions ambigiously.
+1. Never name your classes and functions ambiguously.
 2. Always use inline comments on code blocks that are complicated or may appear unclear.
 3. Always use descriptive variable names.
-4. Always write comments describing the intent or reason why a peice of code exists.
+4. Always write comments describing the intent or reason why a piece of code exists.
 5. Always keep comments up to date when editing commented code.
 
 
 As you can see from the points above code as documentation and comments as documentation are not mutually exclusive. Both
-are necessecary to create readable code that is easily maintained by you and future maintainers.
+are necessary to create readable code that is easily maintained by you and future maintainers.
