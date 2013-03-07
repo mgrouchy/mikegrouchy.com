@@ -27,7 +27,7 @@ Peppering the code that you just wrote with excessive comments, especially when
 it is abundantly clear what the code is doing, is the least useful type of comment
 you can write.
 
-> "Code is far better describing what code does than English so just write clear code"
+> "Code is far better describing what code does than English, so just write clear code"
 
 This is usually the blowback you get from comments like the ones above. I don't
 disagree, programming languages are definitely more precise then English. What I
