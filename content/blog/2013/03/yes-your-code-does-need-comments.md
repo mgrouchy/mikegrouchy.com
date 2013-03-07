@@ -126,3 +126,10 @@ relies on your own judgement but we can cover most issues with some steadfast ru
 
 As you can see from the points above code as documentation and comments as documentation are not mutually exclusive. Both
 are necessary to create readable code that is easily maintained by you and future maintainers.
+
+
+
+
+> If you are interested in keeping up with the latest Python news, discussions,
+> projects, articles and Jobs you should check out [Pycoder's Weekly](http://pycoders.com) the Python
+> newsletter that I curate.
