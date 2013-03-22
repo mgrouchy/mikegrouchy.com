@@ -9,7 +9,7 @@ tags:
 We are rolling out some changes to [Python Jobs HQ](http://pythonjobshq.com) today which
 I think will add some greater value for people who post their jobs on there.
 
-##What is Changing
+##What is Changing?
 First thing is that python job postings will be longer in duration. They will
 now be 45 instead of 30 days and as a consequence of this the price will be changing
 from 149$ to 199$ per ad.
