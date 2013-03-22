@@ -30,7 +30,7 @@ you can write.
 > "Code is far better describing what code does than English, so just write clear code"
 
 This is usually the blowback you get from comments like the ones above. I don't
-disagree, programming languages are definitely more precise then English. What I
+disagree, programming languages are definitely more precise than English. What I
 don't agree with is the idea that if the code is clear and understandable that
 comments are unneeded or don't have a place in modern software development.
 
