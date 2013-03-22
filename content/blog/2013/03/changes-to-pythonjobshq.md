@@ -16,8 +16,8 @@ from 149$ to 199$ per ad.
 
 The second change is that besides having your Job ad tweeted by the [Pycoder's Twitter
 account](http://twitter.com/pycoders) we will also be adding your Job ad to the Pycoder's
-Weekly newsletter in a brand new "Python Jobs" section at **minimum** 2 times in
-the 45 day duration of your job post.
+Weekly newsletter in a brand new "Python Jobs" section twice in the 45 day
+duration of your job post.
 
 ##What about current job posts?
 If you already have a job post at this time we will be matching these changes for your
