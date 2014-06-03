@@ -21,3 +21,8 @@ the most talented developers.
 **URL**: [http://github.com/mgrouchy/django-stronghold](http://github.com/mgrouchy/django-stronghold)<br>
 **Description**: Stronghold is some middleware that defaults all your Django views
 login_required.
+
+
+##HoopsMachine
+**URL**: [http://hoopsmachine.com](http://hoopsmachine.com)<br>
+**Description**: HoopsMachine - Bringing You Basketball News With Science
