@@ -27,7 +27,7 @@ use the droplet for other things besides using it tunnel your internet traffic.
 Convinced yet? If so, lets move on to the setup.
 
 ##1. Signup For Digital Ocean/Set up a Droplet
-The first step here is just to head over to [[Digital Ocean](https://www.digitalocean.com/?refcode=b0a3d514963a)(referral) and signup. This can
+The first step here is just to head over to [Digital Ocean](https://www.digitalocean.com/?refcode=b0a3d514963a) (referral) and signup. This can
 also be accomplished with a VPN you already have, and if that is the route you
 want to go, just head on down to step 2.
 
@@ -65,7 +65,7 @@ Optionally you can download and extract a `zip` or a `.tar.gz` from the sshuttle
 Okay. We have our droplet setup and we have downloaded sshuttle. Now to start
 our DNS tunnel.
 
-Navigate to the directory where you downloaded sshuttle then:
+Navigate to the directory where you downloaded sshuttle locally then:
 
 ```shell
    ./sshuttle --dns -vvr root@dropletserver 0/0
