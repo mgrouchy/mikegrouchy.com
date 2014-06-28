@@ -31,7 +31,7 @@ The first step here is just to head over to [Digital Ocean](https://www.digitalo
 also be accomplished with a VPN you already have, and if that is the route you
 want to go, just head on down to step 2.
 
-Once you have logged into your Digital Ocean account and have verified your email
+Once you have logged into your [Digital Ocean](https://www.digitalocean.com/?refcode=b0a3d514963a) account and have verified your email
 and billing details you can go ahead and click on the "Create" button in the
 side bar. This should give you the Droplet creation wizard and you can just follow
 these steps:
@@ -46,7 +46,7 @@ Next you choose your flavor of Linux, in my case I have chosen Ubuntu.
 !["Select Droplet Image"](/static/images/2014/digital-ocean-select-image.png)
 Next you want to choose the SSH keys to use, if you have [set them up](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2).
 If you don't have ssh keys set up and you don't want to use them. That is okay,
-after you create the droplet digital ocean will email you a root password to the
+after you create the droplet [Digital Ocean](https://www.digitalocean.com/?refcode=b0a3d514963a) will email you a root password to the
 email you signed up with. It is recommended you change this root password by sshing
 into your droplet with the current root password and [changing it](https://www.digitalocean.com/community/questions/can-i-change-root-password).
 !["Choose SSH Keys and Create"](/static/images/2014/digital-ocean-ssh-create.png)

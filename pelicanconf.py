@@ -38,7 +38,7 @@ TWITTER_USERNAME = 'mgrouchy'
 
 # other settings
 SUMMARY_MAX_LENGTH = None
-COPYRIGHT_YEARS = "2008-2013"
+COPYRIGHT_YEARS = "2008-2014"
 
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{slug}.html'
